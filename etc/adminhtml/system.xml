@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="jsparo" translate="label" sortOrder="1100">
+            <label>Jsparo</label>
+        </tab>
+        <section id="jsparo_social" translate="label" type="text" sortOrder="100" showInDefault="1" showInWebsite="1" showInStore="0">
+            <label>Social</label>
+            <tab>jsparo</tab>
+            <resource>Jsparo_Social::config</resource>
+            <group id="facebook" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="0">
+                <label>Facebook</label>
+                <field id="url" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="0">
+                    <label>Facebook Url</label>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
